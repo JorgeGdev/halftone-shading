@@ -202,7 +202,7 @@ const tick = () =>
     if(car3D)
     {
 
-        // Orbital motion for pointLightHelper2 around suzanne
+        // Orbital motion for pointLightHelper2 around bear
     car3D.position.x = bear.position.x + orbitRadius *  Math.cos((elapsedTime * orbitSpeed)*2) / 0.5
     car3D.position.z = bear.position.z + orbitRadius *  Math.sin((elapsedTime * orbitSpeed*2)) / 0.5
     car3D.rotation.y = bear.position.z + orbitRadius * 0.25 * Math.tan( - Math.cos(elapsedTime * orbitSpeed * 2) ) /0.8
